@@ -55,3 +55,7 @@ dkms.conf
 .jxbrowser-data/**
 .metadata/**
 RemoteSystemsTempFiles/**
+.launches/**
+.settings/**
+Debug/**
+targetConfigs/**
