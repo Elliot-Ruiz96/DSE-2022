@@ -44,15 +44,12 @@
 */
 #include <stdint.h>
 #include <stdbool.h>
-
-
 #include "inc/hw_memmap.h"
 #include "inc/hw_types.h"
 #include "driverlib/sysctl.h"
 #include "driverlib/gpio.h"
 
 //#define SYSCTL_PERIPH_GPION     0xf000080c  // GPIO N
-
 uint8_t ui8PinData = 1;
 
 int main(void)
@@ -61,7 +58,6 @@ int main(void)
     SysCtlPeripheralEnable(SYSCTL_PERIPH_GPION);
     GPIOPinTypeGPIOOutput(GPIO_PORTN_BASE, GPIO_PIN_0|GPIO_PIN_1);
     GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_0|GPIO_PIN_1, 0x00);
-
     while(1)
     {
         GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_0 | GPIO_PIN_1, ui8PinData);
