@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project DSEV2Lab01ERS ****
+
+"C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'DSEV2Lab01ERS.out' is up to date.
+
+**** Build Finished ****
