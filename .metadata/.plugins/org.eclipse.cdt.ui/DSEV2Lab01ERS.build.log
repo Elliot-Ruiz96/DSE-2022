@@ -3,6 +3,11 @@
 
 "C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
  
-gmake[1]: 'DSEV2Lab01ERS.out' is up to date.
+Building target: "DSEV2Lab01ERS.out"
+Invoking: ARM Linker
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"DSEV2Lab01ERS.map" --heap_size=0 --stack_size=512 -i"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="DSEV2Lab01ERS_linkInfo.xml" --rom_model -o "DSEV2Lab01ERS.out" "./main.obj" "./tm4c129encpdt_startup_ccs.obj" "C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" "../tm4c129encpdt.cmd"  -llibc.a 
+<Linking>
+Finished building target: "DSEV2Lab01ERS.out"
+ 
 
 **** Build Finished ****

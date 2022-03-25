@@ -6645,3 +6645,7 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 	at sun.security.provider.certpath.SunCertPathBuilder.engineBuild(Unknown Source)
 	at java.security.cert.CertPathBuilder.build(Unknown Source)
 	... 30 more
+
+!ENTRY com.ti.ccstudio.debug 1 0 2022-03-25 09:34:57.236
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: C:\Users\eruiz3\TI\DSE2022\DSEV2Lab01ERS\Debug\DSEV2Lab01ERS.out Could not open file
+

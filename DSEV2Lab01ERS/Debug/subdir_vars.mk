@@ -5,6 +5,9 @@
 SHELL = cmd.exe
 
 # Add inputs and outputs from these tool invocations to the build variables 
+EXE_SRCS += \
+../Ejemplo_1.exe 
+
 CMD_SRCS += \
 ../tm4c129encpdt.cmd 
 
@@ -30,6 +33,9 @@ OBJS__QUOTED += \
 C_DEPS__QUOTED += \
 "main.d" \
 "tm4c129encpdt_startup_ccs.d" 
+
+EXE_SRCS__QUOTED += \
+"../Ejemplo_1.exe" 
 
 C_SRCS__QUOTED += \
 "../main.c" \

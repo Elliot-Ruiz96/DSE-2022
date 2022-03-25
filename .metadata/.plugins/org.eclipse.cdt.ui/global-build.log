@@ -212,3 +212,451 @@ gmake[1]: 'DSEV2Lab01ERS.out' is up to date.
 gmake[1]: 'DSEV2Lab01ERS.out' is up to date.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project DSEV2Lab01ERS ****
+
+"C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Ejemplo_1.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_1.d_raw"  "../Ejemplo_1.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Ejemplo_1.obj' failed
+"../Ejemplo_1.c", line 2: fatal error #1965: cannot open source file "conio.h"
+1 catastrophic error detected in the compilation of "../Ejemplo_1.c".
+Compilation terminated.
+gmake: *** [Ejemplo_1.obj] Error 1
+Building file: "../Ejemplo_3.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_3.d_raw"  "../Ejemplo_3.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Ejemplo_3.obj' failed
+"../Ejemplo_3.c", line 2: fatal error #1965: cannot open source file "conio.h"
+1 catastrophic error detected in the compilation of "../Ejemplo_3.c".
+Compilation terminated.
+gmake: *** [Ejemplo_3.obj] Error 1
+Building file: "../Ejemplo_2.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_2.d_raw"  "../Ejemplo_2.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Ejemplo_2.obj' failed
+"../Ejemplo_2.c", line 2: fatal error #1965: cannot open source file "conio.h"
+1 catastrophic error detected in the compilation of "../Ejemplo_2.c".
+Compilation terminated.
+gmake: *** [Ejemplo_2.obj] Error 1
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DSEV2Lab01ERS ****
+
+"C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Ejemplo_1.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_1.d_raw"  "../Ejemplo_1.c"
+"../Ejemplo_1.c", line 18: warning #225-D: function "kbhit" declared implicitly
+Finished building: "../Ejemplo_1.c"
+ 
+Building file: "../Ejemplo_2.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_2.d_raw"  "../Ejemplo_2.c"
+"../Ejemplo_2.c", line 31: warning #225-D: function "kbhit" declared implicitly
+Finished building: "../Ejemplo_2.c"
+ 
+Building file: "../Ejemplo_3.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_3.d_raw"  "../Ejemplo_3.c"
+"../Ejemplo_3.c", line 23: warning #225-D: function "kbhit" declared implicitly
+Finished building: "../Ejemplo_3.c"
+ 
+Building target: "DSEV2Lab01ERS.out"
+Invoking: ARM Linker
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"DSEV2Lab01ERS.map" --heap_size=0 --stack_size=512 -i"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="DSEV2Lab01ERS_linkInfo.xml" --rom_model -o "DSEV2Lab01ERS.out" "./Ejemplo_1.obj" "./Ejemplo_2.obj" "./Ejemplo_3.obj" "./main.obj" "./tm4c129encpdt_startup_ccs.obj" "C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" "../tm4c129encpdt.cmd"  -llibc.a 
+<Linking>
+error #10056: symbol "main" redefined: first defined in "./Ejemplo_1.obj"; redefined in "./Ejemplo_2.obj"
+error #10056: symbol "main" redefined: first defined in "./Ejemplo_1.obj"; redefined in "./Ejemplo_3.obj"
+error #10056: symbol "main" redefined: first defined in "./Ejemplo_1.obj"; redefined in "./main.obj"
+ 
+ undefined first referenced
+  symbol       in file     
+ --------- ----------------
+ kbhit     ./Ejemplo_1.obj 
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "DSEV2Lab01ERS.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'DSEV2Lab01ERS.out' failed
+gmake[1]: *** [DSEV2Lab01ERS.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DSEV2Lab01ERS ****
+
+"C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Ejemplo_3.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_3.d_raw"  "../Ejemplo_3.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Ejemplo_3.obj' failed
+"../Ejemplo_3.c", line 3: error #20: identifier "r4" is undefined
+"../Ejemplo_3.c", line 24: warning #176-D: expression has no effect
+"../Ejemplo_3.c", line 26: warning #225-D: function "kbhit" declared implicitly
+"../Ejemplo_3.c", line 26: warning #129-D: loop is not reachable
+"../Ejemplo_3.c", line 27: warning #994-D: missing return statement at end of non-void function "Ej3"
+1 error detected in the compilation of "../Ejemplo_3.c".
+gmake: *** [Ejemplo_3.obj] Error 1
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"..\Ejemplo_1.c", line 20: warning #121-D: return value type does not match the function type
+"..\Ejemplo_1.c", line 22: warning #225-D: function "kbhit" declared implicitly
+"..\Ejemplo_1.c", line 22: warning #129-D: loop is not reachable
+"..\Ejemplo_1.c", line 23: warning #994-D: missing return statement at end of non-void function "Ej1"
+"..\Ejemplo_2.c", line 35: warning #225-D: function "kbhit" declared implicitly
+"..\Ejemplo_2.c", line 35: warning #129-D: loop is not reachable
+"..\Ejemplo_2.c", line 36: warning #994-D: missing return statement at end of non-void function "Ej2"
+"..\Ejemplo_3.c", line 3: error #20: identifier "r4" is undefined
+"..\Ejemplo_3.c", line 24: warning #176-D: expression has no effect
+"..\Ejemplo_3.c", line 26: warning #225-D: function "kbhit" declared implicitly
+"..\Ejemplo_3.c", line 26: warning #129-D: loop is not reachable
+"..\Ejemplo_3.c", line 27: warning #994-D: missing return statement at end of non-void function "Ej3"
+"../main.c", line 60: error #167: too few arguments in function call
+"../main.c", line 61: error #167: too few arguments in function call
+"../main.c", line 62: error #167: too few arguments in function call
+4 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+Building file: "../Ejemplo_1.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_1.d_raw"  "../Ejemplo_1.c"
+"../Ejemplo_1.c", line 20: warning #121-D: return value type does not match the function type
+"../Ejemplo_1.c", line 22: warning #225-D: function "kbhit" declared implicitly
+"../Ejemplo_1.c", line 22: warning #129-D: loop is not reachable
+"../Ejemplo_1.c", line 23: warning #994-D: missing return statement at end of non-void function "Ej1"
+Finished building: "../Ejemplo_1.c"
+ 
+Building file: "../Ejemplo_2.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_2.d_raw"  "../Ejemplo_2.c"
+"../Ejemplo_2.c", line 35: warning #225-D: function "kbhit" declared implicitly
+"../Ejemplo_2.c", line 35: warning #129-D: loop is not reachable
+"../Ejemplo_2.c", line 36: warning #994-D: missing return statement at end of non-void function "Ej2"
+Finished building: "../Ejemplo_2.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DSEV2Lab01ERS ****
+
+"C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Ejemplo_3.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_3.d_raw"  "../Ejemplo_3.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Ejemplo_3.obj' failed
+"../Ejemplo_3.c", line 3: error #20: identifier "r4" is undefined
+"../Ejemplo_3.c", line 24: warning #176-D: expression has no effect
+"../Ejemplo_3.c", line 26: warning #225-D: function "kbhit" declared implicitly
+"../Ejemplo_3.c", line 26: warning #129-D: loop is not reachable
+"../Ejemplo_3.c", line 27: warning #994-D: missing return statement at end of non-void function "Ej3"
+1 error detected in the compilation of "../Ejemplo_3.c".
+gmake: *** [Ejemplo_3.obj] Error 1
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"..\Ejemplo_1.c", line 20: warning #121-D: return value type does not match the function type
+"..\Ejemplo_1.c", line 22: warning #225-D: function "kbhit" declared implicitly
+"..\Ejemplo_1.c", line 22: warning #129-D: loop is not reachable
+"..\Ejemplo_1.c", line 23: warning #994-D: missing return statement at end of non-void function "Ej1"
+"..\Ejemplo_2.c", line 35: warning #225-D: function "kbhit" declared implicitly
+"..\Ejemplo_2.c", line 35: warning #129-D: loop is not reachable
+"..\Ejemplo_2.c", line 36: warning #994-D: missing return statement at end of non-void function "Ej2"
+"..\Ejemplo_3.c", line 3: error #20: identifier "r4" is undefined
+"..\Ejemplo_3.c", line 24: warning #176-D: expression has no effect
+"..\Ejemplo_3.c", line 26: warning #225-D: function "kbhit" declared implicitly
+"..\Ejemplo_3.c", line 26: warning #129-D: loop is not reachable
+"..\Ejemplo_3.c", line 27: warning #994-D: missing return statement at end of non-void function "Ej3"
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DSEV2Lab01ERS ****
+
+"C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Ejemplo_3.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_3.d_raw"  "../Ejemplo_3.c"
+"../Ejemplo_3.c", line 24: warning #176-D: expression has no effect
+"../Ejemplo_3.c", line 26: warning #225-D: function "kbhit" declared implicitly
+"../Ejemplo_3.c", line 26: warning #129-D: loop is not reachable
+"../Ejemplo_3.c", line 27: warning #994-D: missing return statement at end of non-void function "Ej3"
+Finished building: "../Ejemplo_3.c"
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"..\Ejemplo_1.c", line 20: warning #121-D: return value type does not match the function type
+"..\Ejemplo_1.c", line 22: warning #225-D: function "kbhit" declared implicitly
+"..\Ejemplo_1.c", line 22: warning #129-D: loop is not reachable
+"..\Ejemplo_1.c", line 23: warning #994-D: missing return statement at end of non-void function "Ej1"
+"..\Ejemplo_2.c", line 35: warning #225-D: function "kbhit" declared implicitly
+"..\Ejemplo_2.c", line 35: warning #129-D: loop is not reachable
+"..\Ejemplo_2.c", line 36: warning #994-D: missing return statement at end of non-void function "Ej2"
+"..\Ejemplo_3.c", line 24: warning #176-D: expression has no effect
+"..\Ejemplo_3.c", line 26: warning #225-D: function "kbhit" declared implicitly
+"..\Ejemplo_3.c", line 26: warning #129-D: loop is not reachable
+"..\Ejemplo_3.c", line 27: warning #994-D: missing return statement at end of non-void function "Ej3"
+Finished building: "../main.c"
+ 
+Building target: "DSEV2Lab01ERS.out"
+Invoking: ARM Linker
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"DSEV2Lab01ERS.map" --heap_size=0 --stack_size=512 -i"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="DSEV2Lab01ERS_linkInfo.xml" --rom_model -o "DSEV2Lab01ERS.out" "./Ejemplo_1.obj" "./Ejemplo_2.obj" "./Ejemplo_3.obj" "./main.obj" "./tm4c129encpdt_startup_ccs.obj" "C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" "../tm4c129encpdt.cmd"  -llibc.a 
+<Linking>
+error #10056: symbol "FN_Cube" redefined: first defined in "./Ejemplo_3.obj"; redefined in "./main.obj"
+error #10056: symbol "Ej3" redefined: first defined in "./Ejemplo_3.obj"; redefined in "./main.obj"
+error #10056: symbol "Ej2" redefined: first defined in "./Ejemplo_2.obj"; redefined in "./main.obj"
+error #10056: symbol "Ej1" redefined: first defined in "./Ejemplo_1.obj"; redefined in "./main.obj"
+error #10056: symbol "SR_Cube" redefined: first defined in "./Ejemplo_3.obj"; redefined in "./main.obj"
+error #10010: errors encountered during linking; "DSEV2Lab01ERS.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'DSEV2Lab01ERS.out' failed
+gmake[1]: *** [DSEV2Lab01ERS.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DSEV2Lab01ERS ****
+
+"C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building target: "DSEV2Lab01ERS.out"
+Invoking: ARM Linker
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"DSEV2Lab01ERS.map" --heap_size=0 --stack_size=512 -i"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="DSEV2Lab01ERS_linkInfo.xml" --rom_model -o "DSEV2Lab01ERS.out" "./Ejemplo_1.obj" "./Ejemplo_2.obj" "./Ejemplo_3.obj" "./main.obj" "./tm4c129encpdt_startup_ccs.obj" "C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" "../tm4c129encpdt.cmd"  -llibc.a 
+<Linking>
+error #10056: symbol "FN_Cube" redefined: first defined in "./Ejemplo_3.obj"; redefined in "./main.obj"
+error #10056: symbol "Ej3" redefined: first defined in "./Ejemplo_3.obj"; redefined in "./main.obj"
+error #10056: symbol "Ej2" redefined: first defined in "./Ejemplo_2.obj"; redefined in "./main.obj"
+error #10056: symbol "Ej1" redefined: first defined in "./Ejemplo_1.obj"; redefined in "./main.obj"
+error #10056: symbol "SR_Cube" redefined: first defined in "./Ejemplo_3.obj"; redefined in "./main.obj"
+error #10010: errors encountered during linking; "DSEV2Lab01ERS.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'DSEV2Lab01ERS.out' failed
+gmake[1]: *** [DSEV2Lab01ERS.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DSEV2Lab01ERS ****
+
+"C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Ejemplo_1.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_1.d_raw"  "../Ejemplo_1.c"
+"../Ejemplo_1.c", line 20: warning #121-D: return value type does not match the function type
+Finished building: "../Ejemplo_1.c"
+ 
+Building file: "../Ejemplo_2.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_2.d_raw"  "../Ejemplo_2.c"
+Finished building: "../Ejemplo_2.c"
+ 
+Building file: "../Ejemplo_3.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_3.d_raw"  "../Ejemplo_3.c"
+"../Ejemplo_3.c", line 24: warning #176-D: expression has no effect
+Finished building: "../Ejemplo_3.c"
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"..\Ejemplo_1.c", line 20: warning #121-D: return value type does not match the function type
+"..\Ejemplo_3.c", line 24: warning #176-D: expression has no effect
+Finished building: "../main.c"
+ 
+Building target: "DSEV2Lab01ERS.out"
+Invoking: ARM Linker
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"DSEV2Lab01ERS.map" --heap_size=0 --stack_size=512 -i"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="DSEV2Lab01ERS_linkInfo.xml" --rom_model -o "DSEV2Lab01ERS.out" "./Ejemplo_1.obj" "./Ejemplo_2.obj" "./Ejemplo_3.obj" "./main.obj" "./tm4c129encpdt_startup_ccs.obj" "C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" "../tm4c129encpdt.cmd"  -llibc.a 
+<Linking>
+error #10056: symbol "FN_Cube" redefined: first defined in "./Ejemplo_3.obj"; redefined in "./main.obj"
+error #10056: symbol "Ej3" redefined: first defined in "./Ejemplo_3.obj"; redefined in "./main.obj"
+error #10056: symbol "Ej2" redefined: first defined in "./Ejemplo_2.obj"; redefined in "./main.obj"
+error #10056: symbol "Ej1" redefined: first defined in "./Ejemplo_1.obj"; redefined in "./main.obj"
+error #10056: symbol "SR_Cube" redefined: first defined in "./Ejemplo_3.obj"; redefined in "./main.obj"
+error #10010: errors encountered during linking; "DSEV2Lab01ERS.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'DSEV2Lab01ERS.out' failed
+gmake[1]: *** [DSEV2Lab01ERS.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DSEV2Lab01ERS ****
+
+"C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Ejemplo_1.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_1.d_raw"  "../Ejemplo_1.c"
+"../Ejemplo_1.c", line 20: warning #121-D: return value type does not match the function type
+Finished building: "../Ejemplo_1.c"
+ 
+Building file: "../Ejemplo_3.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_3.d_raw"  "../Ejemplo_3.c"
+"../Ejemplo_3.c", line 24: warning #176-D: expression has no effect
+Finished building: "../Ejemplo_3.c"
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"..\Ejemplo_1.c", line 20: warning #121-D: return value type does not match the function type
+"..\Ejemplo_3.c", line 24: warning #176-D: expression has no effect
+Finished building: "../main.c"
+ 
+Building target: "DSEV2Lab01ERS.out"
+Invoking: ARM Linker
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"DSEV2Lab01ERS.map" --heap_size=0 --stack_size=512 -i"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="DSEV2Lab01ERS_linkInfo.xml" --rom_model -o "DSEV2Lab01ERS.out" "./Ejemplo_1.obj" "./Ejemplo_2.obj" "./Ejemplo_3.obj" "./main.obj" "./tm4c129encpdt_startup_ccs.obj" "C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" "../tm4c129encpdt.cmd"  -llibc.a 
+<Linking>
+error #10056: symbol "FN_Cube" redefined: first defined in "./Ejemplo_3.obj"; redefined in "./main.obj"
+error #10056: symbol "Ej3" redefined: first defined in "./Ejemplo_3.obj"; redefined in "./main.obj"
+error #10056: symbol "Ej2" redefined: first defined in "./Ejemplo_2.obj"; redefined in "./main.obj"
+error #10056: symbol "Ej1" redefined: first defined in "./Ejemplo_1.obj"; redefined in "./main.obj"
+error #10056: symbol "SR_Cube" redefined: first defined in "./Ejemplo_3.obj"; redefined in "./main.obj"
+error #10010: errors encountered during linking; "DSEV2Lab01ERS.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'DSEV2Lab01ERS.out' failed
+gmake[1]: *** [DSEV2Lab01ERS.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DSEV2Lab01ERS ****
+
+"C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Ejemplo_1.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_1.d_raw"  "../Ejemplo_1.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Ejemplo_1.obj' failed
+"../Ejemplo_1.c", line 8: error #102: "yPtr" has already been declared in the current scope
+1 error detected in the compilation of "../Ejemplo_1.c".
+gmake: *** [Ejemplo_1.obj] Error 1
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"..\Ejemplo_1.c", line 8: error #102: "yPtr" has already been declared in the current scope
+"..\Ejemplo_3.c", line 24: warning #176-D: expression has no effect
+"../main.c", line 60: error #20: identifier "yPtr" is undefined
+"../main.c", line 61: error #20: identifier "ui8Result2" is undefined
+"../main.c", line 62: error #20: identifier "ui8Result3" is undefined
+"../main.c", line 62: error #20: identifier "ui8Result4" is undefined
+5 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DSEV2Lab01ERS ****
+
+"C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Ejemplo_1.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_1.d_raw"  "../Ejemplo_1.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Ejemplo_1.obj' failed
+"../Ejemplo_1.c", line 8: error #102: "yPtr" has already been declared in the current scope
+1 error detected in the compilation of "../Ejemplo_1.c".
+gmake: *** [Ejemplo_1.obj] Error 1
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"..\Ejemplo_1.c", line 8: error #102: "yPtr" has already been declared in the current scope
+"..\Ejemplo_3.c", line 24: warning #176-D: expression has no effect
+"../main.c", line 60: error #20: identifier "yPtr" is undefined
+"../main.c", line 61: error #20: identifier "ui8Result2" is undefined
+"../main.c", line 62: error #20: identifier "ui8Result3" is undefined
+"../main.c", line 62: error #20: identifier "ui8Result4" is undefined
+5 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DSEV2Lab01ERS ****
+
+"C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Ejemplo_1.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Ejemplo_1.d_raw"  "../Ejemplo_1.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Ejemplo_1.obj' failed
+"../Ejemplo_1.c", line 8: error #102: "yPtr" has already been declared in the current scope
+1 error detected in the compilation of "../Ejemplo_1.c".
+gmake: *** [Ejemplo_1.obj] Error 1
+Building file: "../main.c"
+Invoking: ARM Compiler
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/eruiz3/TI/DSE2022/DSEV2Lab01ERS" --include_path="C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178" --include_path="C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DSEV2Lab01ERS ****
+
+"C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building target: "DSEV2Lab01ERS.out"
+Invoking: ARM Linker
+"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C129ENCPDT -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"DSEV2Lab01ERS.map" --heap_size=0 --stack_size=512 -i"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/lib" -i"C:/Users/eruiz3/TI/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="DSEV2Lab01ERS_linkInfo.xml" --rom_model -o "DSEV2Lab01ERS.out" "./main.obj" "./tm4c129encpdt_startup_ccs.obj" "C:/Users/eruiz3/TI/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib" "../tm4c129encpdt.cmd"  -llibc.a 
+<Linking>
+Finished building target: "DSEV2Lab01ERS.out"
+ 
+
+**** Build Finished ****
