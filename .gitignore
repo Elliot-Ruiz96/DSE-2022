@@ -52,9 +52,6 @@ Mkfile.old
 dkms.conf
 
 # Folders
-.jxbrowser-data/
-.metadata/
-RemoteSystemsTempFiles/
-
-C:\Users\eruiz3\TI\DSE2022\.metadata/
-
+.jxbrowser-data/**
+.metadata/**
+RemoteSystemsTempFiles/**
