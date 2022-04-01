@@ -942,3 +942,264 @@ Finished building target: "DSEV2Lab07ERS.out"
 gmake[1]: 'DSEV2Lab07ERS.out' is up to date.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project DSEV2Lab07ERS ****
+
+"C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'DSEV2Lab07ERS.out' is up to date.
+
+**** Build Finished ****
+10:03:23 **** Rebuild of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -o DSEV2Lab08ERS.exe main.o 
+
+**** Build of configuration Debug for project DSEV2Lab07ERS ****
+
+"C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'DSEV2Lab07ERS.out' is up to date.
+
+**** Build Finished ****
+10:17:42 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe main.o 
+Info: Nothing to build for DSEV2Lab08ERS
+10:19:42 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe main.o 
+10:55:34 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+In file included from ..\Vehicle.cpp:8:
+..\Vehicle.h:13:20: error: expected ';' before 'using'
+   13 | using namespace std
+      |                    ^
+      |                    ;
+   14 | using std::vector;
+      | ~~~~~               
+..\Vehicle.h:16:1: error: expected unqualified-id before '{' token
+   16 | {
+      | ^
+10:55:58 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+In file included from ..\Vehicle.cpp:8:
+..\Vehicle.h:16:1: error: expected unqualified-id before '{' token
+   16 | {
+      | ^
+11:12:58 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+In file included from ..\Vehicle.cpp:8:
+..\Vehicle.h:34:1: error: expected declaration before '}' token
+   34 | }
+      | ^
+11:13:20 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:19:43: error: narrowing conversion of '178' from 'int' to 'char' [-Wnarrowing]
+   19 |     vector<char> Bodywork = {178, 178, 178};
+      |                                           ^
+..\main.cpp:20:41: error: narrowing conversion of '184' from 'int' to 'char' [-Wnarrowing]
+   20 |     vector<char> Wheels = {184, 184, 184};
+      |                                         ^
+..\main.cpp:24:5: error: 'Ford' was not declared in this scope
+   24 |     Ford Vehicle(10, 10, Bodywork, Wheels);
+      |     ^~~~
+11:15:40 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:27:5: error: 'Ford' was not declared in this scope
+   27 |     Ford Vehicle(10, 10, Bodywork, Wheels);
+      |     ^~~~
+11:18:07 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:27:21: error: conversion from 'Vehicle*' to non-scalar type 'Vehicle' requested
+   27 |     Vehicle Ford  = new Vehicle(10, 10, Bodywork, Wheels);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+11:22:44 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:27:5: error: 'Ford' was not declared in this scope
+   27 |     Ford Vehicle(10, 10, Bodywork, Wheels);
+      |     ^~~~
+11:23:08 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe Vehicle.o main.o 
+11:24:27 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe Vehicle.o main.o 
+11:25:19 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe Vehicle.o main.o 
+11:25:40 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe Vehicle.o main.o 
+11:26:16 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:25:42: error: no matching function for call to 'Vehicle::Vehicle(int, int, std::vector<char>&, std::vector<char>&)'
+   25 |     Vehicle Ford(10, 10, Bodywork, Wheels);
+      |                                          ^
+In file included from ..\main.cpp:9:
+..\Vehicle.h:20:7: note: candidate: 'Vehicle::Vehicle()'
+   20 | class Vehicle
+      |       ^~~~~~~
+..\Vehicle.h:20:7: note:   candidate expects 0 arguments, 4 provided
+..\Vehicle.h:20:7: note: candidate: 'Vehicle::Vehicle(const Vehicle&)'
+..\Vehicle.h:20:7: note:   candidate expects 1 argument, 4 provided
+..\Vehicle.h:20:7: note: candidate: 'Vehicle::Vehicle(Vehicle&&)'
+..\Vehicle.h:20:7: note:   candidate expects 1 argument, 4 provided
+11:26:35 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+..\Vehicle.cpp: In member function 'int Vehicle::Ford(int, int, std::vector<char>, std::vector<char>)':
+..\Vehicle.cpp:16:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   16 | }
+      | ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:25:42: error: no matching function for call to 'Vehicle::Vehicle(int, int, std::vector<char>&, std::vector<char>&)'
+   25 |     Vehicle Ford(10, 10, Bodywork, Wheels);
+      |                                          ^
+In file included from ..\main.cpp:9:
+..\Vehicle.h:20:7: note: candidate: 'Vehicle::Vehicle()'
+   20 | class Vehicle
+      |       ^~~~~~~
+..\Vehicle.h:20:7: note:   candidate expects 0 arguments, 4 provided
+..\Vehicle.h:20:7: note: candidate: 'Vehicle::Vehicle(const Vehicle&)'
+..\Vehicle.h:20:7: note:   candidate expects 1 argument, 4 provided
+..\Vehicle.h:20:7: note: candidate: 'Vehicle::Vehicle(Vehicle&&)'
+..\Vehicle.h:20:7: note:   candidate expects 1 argument, 4 provided
+11:27:04 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe Vehicle.o main.o 
+11:37:03 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+..\Vehicle.cpp: In function 'void goTo_xy(int, int)':
+..\Vehicle.cpp:24:41: error: expected ')' before ';' token
+   24 |     SetConsoleCursorPosition(hCon, dwPos;)
+      |                             ~           ^
+      |                                         )
+..\Vehicle.cpp:24:42: error: expected primary-expression before ')' token
+   24 |     SetConsoleCursorPosition(hCon, dwPos;)
+      |                                          ^
+11:37:32 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe Vehicle.o main.o 
+11:39:40 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe Vehicle.o main.o 
+11:40:27 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe Vehicle.o main.o 
+11:41:04 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe Vehicle.o main.o 
+11:41:50 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe Vehicle.o main.o 
+11:46:51 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe Vehicle.o main.o 
+11:48:42 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe Vehicle.o main.o 
+11:49:59 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe Vehicle.o main.o 
+11:50:35 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe Vehicle.o main.o 
+11:52:41 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:26:12: error: expected ';' before 'Vehicle2'
+   26 |     Vehicle Vehicle2(20, 20, Bodywork1, Wheels1);
+      |            ^~~~~~~~~
+      |            ;
+..\main.cpp:26:5: warning: statement has no effect [-Wunused-value]
+   26 |     Vehicle Vehicle2(20, 20, Bodywork1, Wheels1);
+      |     ^~~~~~~
+..\main.cpp:30:5: error: 'Vehicle2' was not declared in this scope; did you mean 'Vehicle'?
+   30 |     Vehicle2.Paint();
+      |     ^~~~~~~~
+      |     Vehicle
+11:54:09 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:27:12: error: expected ';' before 'Vehicle2'
+   27 |     Vehicle Vehicle2(20, 20, Bodywork1, Wheels1);
+      |            ^~~~~~~~~
+      |            ;
+..\main.cpp:27:5: warning: statement has no effect [-Wunused-value]
+   27 |     Vehicle Vehicle2(20, 20, Bodywork1, Wheels1);
+      |     ^~~~~~~
+..\main.cpp:31:5: error: 'Vehicle2' was not declared in this scope; did you mean 'Vehicle'?
+   31 |     Vehicle2.Paint();
+      |     ^~~~~~~~
+      |     Vehicle
+11:55:23 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+g++ -static-libgcc -static-libstdc++ -o DSEV2Lab08ERS.exe Vehicle.o main.o 
+
+**** Build of configuration Debug for project DSEV2Lab07ERS ****
+
+"C:\\Users\\eruiz3\\TI\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'DSEV2Lab07ERS.out' is up to date.
+
+**** Build Finished ****
+12:09:29 **** Incremental Build of configuration Debug for project DSEV2Lab08ERS ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Vehicle.o "..\\Vehicle.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+..\main.cpp: In function 'int main()':
+..\main.cpp:29:12: error: expected ';' before 'Vehicle1'
+   29 |     Vehicle Vehicle1(20, 20, Bodywork1, Wheels1);
+      |            ^~~~~~~~~
+      |            ;
+..\main.cpp:29:5: warning: statement has no effect [-Wunused-value]
+   29 |     Vehicle Vehicle1(20, 20, Bodywork1, Wheels1);
+      |     ^~~~~~~
+..\main.cpp:30:5: error: 'Vehicle1' was not declared in this scope; did you mean 'Vehicle'?
+   30 |     Vehicle1.Paint();
+      |     ^~~~~~~~
+      |     Vehicle
