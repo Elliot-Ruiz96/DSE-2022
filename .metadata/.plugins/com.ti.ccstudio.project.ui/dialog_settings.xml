@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="com.ti.ccstudio.project.ui.internal.wizards.project.ProjectSettingsPage">
-		<item value="C:\Users\eruiz3\TI\ccs\ccs_base\common\targetdb\connections\Stellaris_ICDI_Connection.xml" key="CCS.CONNECTION"/>
+		<item value="" key="CCS.CONNECTION"/>
 		<item value="devices/tm4c129encpdt.xml" key="CCS.TARGET"/>
 		<section name="1">
 			<item value="" key="CCS.TOOL_CHAIN"/>
