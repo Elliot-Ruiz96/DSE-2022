@@ -82,15 +82,33 @@
 int main(void)
 {
     SysCtlClockFreqSet((SYSCTL_XTAL_25MHZ | SYSCTL_OSC_MAIN | SYSCTL_USE_PLL | SYSCTL_CFG_VCO_480), OSC_CLK_120MHZ);
+
     SysCtlPeripheralEnable(SYSCTL_PERIPH_GPION);
     GPIOPinTypeGPIOOutput(GPIO_PORTN_BASE, GPIO_PIN_0|GPIO_PIN_1);
+
+    SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIOJ);
+    GPIODirModeSet(GPIO_PORTJ_BASE, GPIO_PIN_0|GPIO_PIN_1, GPIO_DIR_MODE_IN);
+    GPIOPadConfigSet(GPIO_PORTJ_BASE, GPIO_PIN_0|GPIO_PIN_1, GPIO_STRENGTH_2MA, GPIO_PIN_TYPE_STD_WPU);
+
     GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_0|GPIO_PIN_1, LED_OFF);
+
     while(1)
     {
-        GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_0 | GPIO_PIN_1, LED_ON);
-        SysCtlDelay(DELAY_VALUE);
-        GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_0 | GPIO_PIN_1, LED_OFF);
-        SysCtlDelay(DELAY_VALUE);
+        if((GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_0)) == 0)
+        {
+            GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_0 | GPIO_PIN_1, LED_ON);
+        }
+        else if((GPIOPinRead(GPIO_PORTJ_BASE, GPIO_PIN_1)) == 0)
+        {
+            GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_0 | GPIO_PIN_1, LED_OFF);
+        }
+        else
+        {
+            GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_0 | GPIO_PIN_1, LED_ON);
+            SysCtlDelay(DELAY_VALUE);
+            GPIOPinWrite(GPIO_PORTN_BASE, GPIO_PIN_0 | GPIO_PIN_1, LED_OFF);
+            SysCtlDelay(DELAY_VALUE);
+        }
     }
 
     return 0;
@@ -102,5 +120,6 @@ int main(void)
  *
  *  USER    | VERSION   |       COMMENT
  * eruiz3       0.1         Initial Template
+ * eruiz3       0.2         Integration for SW1 and SW2
  *
 ------------------------------------------------------------------------------------------------------------------*/
