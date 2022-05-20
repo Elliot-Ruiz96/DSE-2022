@@ -5,29 +5,29 @@
  *      Author: ERUIZ3
  */
 
+#include "Keyboard.h"
 #include "Vehicle.h"
 
 int main()
 {
     system("cls");
 
+    // Refer to ASCII code
     char Bodyw = 178;
-    char Whee = 184;
-
-    char Bodyw1 = 179;
-    char Whee1 = 229;
+    char Whee = 166;
 
     vector<char> Bodywork = {Bodyw, Bodyw, Bodyw};
     vector<char> Wheels = {Whee, Whee};
 
-    vector<char> Bodywork1 = {Bodyw1, Bodyw1, Bodyw1};
-    vector<char> Wheels1 = {Whee1, Whee1};
-
     Vehicle Vehicle(10, 10, Bodywork, Wheels);
     Vehicle.Paint();
 
-    Vehicle Vehicle1(20, 20, Bodywork1, Wheels1);
-    Vehicle1.Paint();
+    Keyboard Key(72, 80, 75, 77);
+
+    while (true)
+    {
+        Vehicle.Move(Key);
+    }
 
     return 0;
 }
