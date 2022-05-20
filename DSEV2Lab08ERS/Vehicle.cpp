@@ -49,7 +49,45 @@ void Vehicle::Paint()
     goTo_xy(x, y);
     printf("%c%c%c\n", Bodywork[0], Bodywork[1], Bodywork[2]);
     goTo_xy(x, y + 1);
-    printf(" %c%c\n", Wheels[0], Wheels[1]);
+    printf("%c %c\n", Wheels[0], Wheels[1]);
+}
+
+/*-------------------------------------------------------
+ *
+ * Color of the vehicle Body work and Wheels.
+ *
+ * ------------------------------------------------------
+ */
+void Vehicle::Move(Keyboard _K)
+{
+    // Function declares in windows.h
+    if(kbhit())
+    {
+       char Key = _K.getKeyPressed();
+       goTo_xy(x, y);
+       printf("     ");
+       goTo_xy(x, y + 1);
+       printf("     ");
+       // Check which Key was pressed and size of cmd screen
+       if((Key == _K.getLeft()) && (x > 2))
+       {
+           x--;
+       }
+       if((Key == _K.getRight()) && ((x + 6) < 76))
+       {
+           x++;
+       }
+       if((Key == _K.getUp()) && (y > 2))
+       {
+           y--;
+       }
+       if((Key == _K.getDown()) && ((y + 3) < 20))
+       {
+           y++;
+       }
+       //Move vehicle in cmd screen
+       Paint();
+    }
 }
 
 /*-------------------------------------------------------
