@@ -14,6 +14,8 @@
 #include <iostream>
 #include <vector>
 
+#include "Keyboard.h"
+
 using namespace std;
 using std::vector;
 
@@ -34,6 +36,8 @@ public:
     int getX() const;
     int getY() const;
     void Paint();
+    void Erase();
+    void Move(Keyboard _K);
 };
 
 
