@@ -74,11 +74,13 @@
 
 int main(void)
 {
-    uint32_t ui32ADC0Value[4];      //  Declaracion de la variable ui32ADC0Value que es un vector de 4 localidades de memoria
+    uint32_t ui32ADC0Value[4];              //  Declaracion de la variable ui32ADC0Value que es un vector de 4 localidades de memoria
 
-    volatile uint32_t ui32TempAvg;      //  Declaracion de la variable ui32TempAvg ui32TempValueCs cuatro lecturas
-    volatile uint32_t ui32TempValueC;   //  Declaracion de la variable ui32TempValueC para guardar el valor en grados Celcius
-    volatile uint32_t ui32TempValueF;   //  Declaracion de la variable ui32TempValueF para guardar el valor en grados Fahrenheit
+    volatile uint32_t ui32TempAvg;          //  Declaracion de la variable ui32TempAvg ui32TempValueCs cuatro lecturas
+    volatile uint32_t ui32TempValueC;       //  Declaracion de la variable ui32TempValueC para guardar el valor en grados Celcius
+    volatile uint32_t ui32TempValueF;       //  Declaracion de la variable ui32TempValueF para guardar el valor en grados Fahrenheit
+
+    volatile uint32_t ui32Potenciometro;    // Declaracion de las variable para lectura de optenciometro
     //
     SysCtlClockFreqSet((SYSCTL_XTAL_25MHZ | SYSCTL_OSC_MAIN | SYSCTL_USE_PLL | SYSCTL_CFG_VCO_480), OSC_CLK_120MHZ);
 
@@ -89,8 +91,8 @@ int main(void)
 
     GPIOPinTypeADC(GPIO_PORTE_BASE, GPIO_PIN_3);                                //Configurar PE3 Chanel0
 
-    ADCSequenceStepConfigure(ADC0_BASE, 1, 0, ADC_CTL_TS);                      //  Configurar el paso del secuenciador (modulo ADC0, Secuenciador SS1, numero de paso = 0, fuente senal anal. Sensor temperatura)
-    ADCSequenceStepConfigure(ADC0_BASE, 1, 1, ADC_CTL_TS);                      //  Configurar el paso del secuenciador (modulo ADC0, Secuenciador SS1, numero de paso = 1, fuente senal anal. Sensor temperatura)
+    ADCSequenceStepConfigure(ADC0_BASE, 1, 0, ADC_CTL_CH0);                      //  Configurar el paso del secuenciador (modulo ADC0, Secuenciador SS1, numero de paso = 0, fuente senal anal. Sensor temperatura)
+    ADCSequenceStepConfigure(ADC0_BASE, 1, 1, ADC_CTL_CH0);                      //  Configurar el paso del secuenciador (modulo ADC0, Secuenciador SS1, numero de paso = 1, fuente senal anal. Sensor temperatura)
     ADCSequenceStepConfigure(ADC0_BASE, 1, 2, ADC_CTL_TS);                      //  Configurar el paso del secuenciador (modulo ADC0, Secuenciador SS1, numero de paso = 2, fuente senal anal. Sensor temperatura)
     ADCSequenceStepConfigure(ADC0_BASE,1,3,ADC_CTL_TS|ADC_CTL_IE|ADC_CTL_END);  //  Configurar el paso del secuenciador (modulo ADC0, Secuenciador SS1, numero de paso = 0, fuente senal anal. Sensor temperatura, ultimo paso)
 
@@ -108,9 +110,11 @@ int main(void)
 
          ADCSequenceDataGet(ADC0_BASE, 1, ui32ADC0Value);   //  Traer los resusultados de la conversion (4 muestras) y guardar en el vector ui32ADC0Value
 
-         ui32TempAvg = (ui32ADC0Value[0] + ui32ADC0Value[1] + ui32ADC0Value[2] + ui32ADC0Value[3] + 2)/4;
-         ui32TempValueC = (1475 - ((2475 * ui32TempAvg)) / 4096)/10;
+         ui32TempAvg = (ui32ADC0Value[2] + ui32ADC0Value[3] + 1) / 2;
+         ui32TempValueC = (1475 - ((2475 * ui32TempAvg)) / 4096) / 10;
          ui32TempValueF = ((ui32TempValueC * 9) + 160) / 5;
+
+         ui32Potenciometro = (ui32ADC0Value[0] + ui32ADC0Value[1] + 1) / 2;
 
     }
 
@@ -123,6 +127,6 @@ int main(void)
  *
  *  USER    | VERSION   |       COMMENT
  * eruiz3       0.1         Initial Template
- * eruiz3       0.2         Integration for SW1 and SW2
+ * eruiz3       0.2         Integration for potentiometer
  *
 ------------------------------------------------------------------------------------------------------------------*/
